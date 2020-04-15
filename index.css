@@ -14,8 +14,11 @@ html {
     background-color: white;
     border-radius: 40px;
 }
-#wrap h1 {
+#wrap h1, h2, h3 {
     font-family: 'Source Serif Pro', serif;
+    margin:0px;
+}
+#wrap h1 {
     font-size: 110px;
     font-weight: bolder;
     margin:0px;
@@ -25,19 +28,15 @@ html {
     float:left;
 }
 #wrap h2 {
-    font-family: 'Source Serif Pro', serif;
     font-size: 50px;
     font-weight: bolder;
-    margin:0px;
     margin-left:10px;
     margin-top:75px;
     color: #A9A5FF;
     float:left;
 }
 #wrap h3 {
-    font-family: 'Source Serif Pro', serif;
     font-size: 35px;
-    margin:0px;
     margin-right:53px;
     margin-top:90px;
     color: #110D6B;
@@ -47,4 +46,33 @@ html {
     border:2px solid #EAE9FF;
     clear:both;
     margin: 0 50px 0 50px; /* top, right, bottom, left */
+}
+
+#wrap .js-toDoForm {
+    margin-left:60px;
+    margin-top: 20px;   
+}
+#wrap .js-toDoForm input {
+    width:610px;
+    height:40px;
+    padding-left:15px;
+    font-size: 20px;
+    border:1px solid #C1C1C1;
+    border-radius: 15px;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-bottom:5px;
+}
+#wrap ul {
+    margin-left:50px;
+    list-style-type: circle;
+    /* list-style-image: url("images/circle.png"); */
+}
+#wrap ul li {
+    margin-bottom:22px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 23px;
+}
+#wrap ul li button {
+    opacity: 0;
+    margin-left:-30px;
 }

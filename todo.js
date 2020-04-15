@@ -3,6 +3,7 @@ const toDoForm = document.querySelector(".js-toDoForm"),
     toDoList = document.querySelector(".js-toDoList");
 
 const TODOS_LS = 'toDos';
+const TODOSOVER = 10;
 
 let toDos = [];
 
